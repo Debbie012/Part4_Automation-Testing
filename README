@@ -1,0 +1,31 @@
+# Playwright Login Automation Framework
+
+A clean, maintainable test automation framework built with **Playwright** and **JavaScript**, implementing the **Page Object Model (POM)** design pattern. 
+
+This project automates login validation scenarios against the Practice Test Automation login page.
+
+## Key Features
+* **Page Object Model (POM):** Clean separation of page selectors/actions from the actual test assertions.
+* **Auto-Waiting:** Fully utilizes Playwright's native auto-waiting mechanisms to eliminate flaky, hardcoded timeouts.
+* **Centralized Configuration:** Crucial configurations (like `baseURL` and browser selection) are managed in a single `config/config.js` file.
+
+---
+
+## Tech Stack & Tools
+* **Language:** JavaScript (Node.js)
+* **Automation Engine:** Playwright
+* **Version Control:** Git & GitHub
+
+---
+
+## Setup & Installation
+
+Follow these steps to run the tests locally on your machine:
+
+### 1. Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed.
+
+### 2. Clone the Repository
+```bash
+git clone [https://github.com/Debbie012/Part4_Automation-Testing.git](https://github.com/Debbie012/Part4_Automation-Testing.git)
+cd Part4_Automation-Testing
